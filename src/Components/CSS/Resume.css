@@ -1,0 +1,37 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+}.menuItem{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+}
+.item{
+    border-bottom: 1px solid black;
+}.secondMenuItem{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 30%;
+    text-align: center;
+}.secondItem{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;  
+}.secondMenu{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 30%;
+    background-color:antiquewhite
+}.thirdMenu{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width:40%;
+    background-color: antiquewhite;
+}.thirdItem{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
