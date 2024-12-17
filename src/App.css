@@ -1,22 +1,21 @@
 header{
-  padding-left:37%;
+  padding-left:40%;
   font-size: 30px;
-  padding-top:2%;
+  padding-top:1%;
   padding-bottom: 2%;
   border:1px solid black;
-  background-color:rgba(0, 0, 0, 0.738);
-}
-footer{
-  margin-top:7%;
-  margin-left:2%;
-  font-size:20px;
-}
+  background-color:rgb(220, 157, 39);
+  display:flex;}
+footer {
+  position: absolute; 
+  bottom: -50%;
+  left: 2%; 
+  font-size: 20px;}
 .menu {
   display: flex;
   flex-direction: column; 
   margin-top: 3%;
-  width: 10%;
-}
+  width: 10%;}
 .menuitem{
  border:1px solid black;
  border-radius: 10px;
@@ -25,31 +24,119 @@ footer{
  padding: 5px 5px 5px 5px;
  text-decoration: none;
  color:white;
- background-color: black;
-
-}
+ background-color: black;}
 .container{
-  display: flex;
-}
+  display: flex;}
 .headerLink{
   text-decoration: none;
-  color:white;
-}
+  color:white;}
 .main{
   margin-left: 2%;
   margin-top: 3%;
-  width:100%
-}
+  width:100%}
 .mainImage{
   margin-left: 27%;
   margin-top: 2%;
-  width: 30%;
-}
+  width: 30%;}
 button{
   width:10%;
   height:40px;
   font-size: 20px;
   background-color: gray;
-  color: white;
-
-}
+  color: white;}
+.Login{
+  color:black;
+  text-decoration: none;
+  margin-left: 55%;
+  font-size:23px;
+  margin-top: 1%;}
+.Todo{
+    color:blue;
+    text-decoration: none;
+    margin-left:30%;
+    font-size:23px;}
+.headerlist{
+  display: flex;
+  margin-top:1%;}
+.MyPage{
+  color:blue;
+  text-decoration: none;
+  margin-left:30%;
+  font-size:23px;}
+.Logout{
+  color:black;
+  text-decoration: none;
+  font-size:23px;
+  margin-left: 50%;
+  background-color:rgb(220, 157, 39);
+  border:none;
+  white-space: nowrap; }
+.LoginText{
+margin-left: 39%  ;
+font-size: 35px;
+margin-top: 4%;}
+.LoginBox{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 30%;}
+.LoginID{
+  margin-left: 3%;
+  font-size: 25px;}
+.LoginInput{
+  margin-left: 2%;
+  width:19%;}
+.LoginButton{
+  margin-top: 4%;
+  margin-left: 32%;
+  width: 21%;}
+.TodoInput{
+  height: 30px;
+  width: 300px;}
+.TodoButton1{
+  margin-left: 2%;
+  height: 30px;
+  background-color: blue;
+  color: white;}
+.TodoButton2{
+  margin-left: 2%;
+  height: 30px;
+  background-color: red;
+  color: white;}
+.MyPageText{
+ margin-top: 3%;
+ margin-left: 5%;}
+.MyPageAll{
+ margin-left:5%;
+ margin-top: 3%;
+ border: 1px solid black;
+ width:30%;}
+.MyPageNameAll{
+  display: flex;
+  border-bottom: 1px solid black;}
+.MyPageNumAll{
+  display: flex;
+  border-bottom: 1px solid black;}
+.MyPageAddressAll{
+  display: flex;
+  border-bottom: 1px solid black;}
+.MyPageName{
+border-right: 1px solid black;
+font-size: 25px;
+color:white;
+background-color: gray;}
+.MyPageNum{
+  border-right: 1px solid black;
+  font-size: 25px;
+  color:white;
+background-color: gray;}
+.MyPageAddress{
+  border-right: 1px solid black;
+  font-size: 25px;
+  color:white;
+background-color: gray;}
+.MyPageNameItem{
+font-size: 30px;}
+.MyPageNumItem{
+  font-size: 30px;}
+.MyPageAddressItem{
+  font-size: 30px;}
